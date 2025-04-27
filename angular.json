@@ -26,28 +26,33 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
+              "src/favicon.ico",
+              "src/assets",
               {
                 "glob": "**/*",
-                "input": "public"
+                "input": "node_modules/@syncfusion/ej2-pdfviewer/dist/ej2-pdfviewer-lib",
+                "output": "assets/ej2-pdfviewer-lib"
               }
             ],
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "/node_modules/@syncfusion/ej2-pdfviewer/dist/ej2-pdfviewer-lib/pdfium.js"
+            ]
           },
           "configurations": {
             "production": {
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kB",
-                  "maximumError": "1MB"
+                  "maximumWarning": "9MB",
+                  "maximumError": "9MB"
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kB",
-                  "maximumError": "4kB"
+                  "maximumWarning": "6kB",
+                  "maximumError": "10kB"
                 }
               ],
               "outputHashing": "all"
@@ -85,15 +90,20 @@
             "tsConfig": "tsconfig.spec.json",
             "inlineStyleLanguage": "scss",
             "assets": [
+              "src/favicon.ico",
+              "src/assets",
               {
                 "glob": "**/*",
-                "input": "public"
+                "input": "node_modules/@syncfusion/ej2-pdfviewer/dist/ej2-pdfviewer-lib",
+                "output": "assets/ej2-pdfviewer-lib"
               }
             ],
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "/node_modules/@syncfusion/ej2-pdfviewer/dist/ej2-pdfviewer-lib/pdfium.js"
+            ]
           }
         }
       }
