@@ -1,6 +1,6 @@
 # PDFViewerApp
 
-PDFViewerApp is a Progressive Web Application (PWA) designed to provide seamless PDF viewing and printing capabilities. It leverages the EJS PDF Viewer for rendering PDF documents and integrates with ESC/POS printers for efficient printing. Built using C#, this application ensures a responsive and user-friendly experience across devices.
+PDFViewerApp is a Progressive Web Application (PWA) designed to provide seamless PDF viewing and printing capabilities. It leverages the EJS PDF Viewer for rendering PDF documents and integrates with ESC/POS printers for efficient printing. Built using C# and Angular, this application ensures a responsive and user-friendly experience across devices.
 
 ## Features
 - View PDF documents directly in the browser.
