@@ -19,19 +19,15 @@ PDFViewerApp is a Progressive Web Application (PWA) designed to provide seamless
   ```
 3. Install dependencies and build the project:
   ```bash
-  dotnet build
+  @syncfusion/ej2-angular-pdfviewer
+  @angular/pwa
+  build asp.net core web api project in visual studio and copy file under aspdonetcorewebapi
   ```
-
-## Usage
-1. Run the application:
-  ```bash
-  dotnet run
   ```
-2. Open your browser and navigate to `http://localhost:4200`.
-3. Upload a PDF file to view and print.
+1. Open your browser and navigate to `http://localhost:4200`.
+2. Upload a PDF file to view and print.
 
 ## Requirements
-- .NET SDK
 - Compatible ESC/POS printer
 
 ## Contributing
